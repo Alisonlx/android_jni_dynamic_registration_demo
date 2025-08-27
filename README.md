@@ -19,3 +19,10 @@ Uses :
 
 # Author
 [Anshul](https://github.com/sarafanshul)
+
+## 
+https://medium.com/@sarafanshul/jni-201-dynamic-registration-a1ad7fa50b21
+
+https://github.com/sarafanshul/Chopper/blob/master/app/build.gradle
+
+https://homanhuang.medium.com/android-opencv-part-1-setup-63764cff3d33

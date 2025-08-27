@@ -131,7 +131,7 @@ task createBuildDir() {
 task runCMake(type: Exec) {
     dependsOn createBuildDir
     workingDir osxDir // Jump to future build directory
-    commandLine '/usr/local/bin/cmake' // Path from HomeBrew installation
+    commandLine '/usr/bin/cmake' // Path from HomeBrew installation
     args projectDir.absolutePath+'/src/main/cpp/' // Relative path for out-of-source builds
 }
 

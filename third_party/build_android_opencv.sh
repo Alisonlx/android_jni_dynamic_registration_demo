@@ -4,7 +4,7 @@ export ANDROID_NDK=${ANDROID_SDK_ROOT}/ndk/23.1.7779620
 
 rm -rf build/
 
-declare -a arr=("arm64-v8a" "x86" "x86_64" "armeabi-v7a")
+declare -a arr=("arm64-v8a")
 
 mkdir android_libs
 

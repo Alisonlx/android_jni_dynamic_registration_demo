@@ -1,9 +1,5 @@
-//
-// Created by Anshul Saraf on 28/06/22.
-//
-
 #include "ImageSteg.h"
-#include "opencv2/imgcodecs.hpp"
+#include "opencv2/opencv.hpp"
 #include "logger.h"
 #include "constants.h"
 

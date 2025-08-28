@@ -29,7 +29,7 @@ project("chopper")
 # configure opencv.
 set(OPENCV_DIRS ${CMAKE_SOURCE_DIR}/../../../../3rd_party/opencv)
 
-include_directories(${OPENCV_DIRS}/include)
+include_directories(${OPENCV_DIRS}/${ANDROID_ABI}/sdk/native/jni/include)
 
 set(opencv_libs_names
     opencv_core opencv_dnn opencv_highgui opencv_imgcodecs opencv_imgproc opencv_ml)
@@ -43,7 +43,7 @@ foreach (opencv_libs_name ${opencv_libs_names})
             ${opencv_libs_name}
             PROPERTIES
             IMPORTED_LOCATION
-            ${OPENCV_DIRS}/build/lib/${ANDROID_ABI}/lib${opencv_libs_name}.so)
+            ${OPENCV_DIRS}/${ANDROID_ABI}/sdk/native/libs/${ANDROID_ABI}/lib${opencv_libs_name}.so)
 endforeach ()
 
 # Automatically all files in a directory to a target

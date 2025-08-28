@@ -31,12 +31,8 @@ set(OPENCV_DIRS ${CMAKE_SOURCE_DIR}/../../../../third_party/opencv)
 
 include_directories(${OPENCV_DIRS}/include)
 
-set(
-        # List variable name
-        opencv_libs_names
-        # Values in the list
-        opencv_core opencv_dnn opencv_highgui opencv_imgcodecs opencv_imgproc opencv_ml
-)
+set(opencv_libs_names
+    opencv_core opencv_dnn opencv_highgui opencv_imgcodecs opencv_imgproc opencv_ml)
 
 foreach (opencv_libs_name ${opencv_libs_names})
     add_library(

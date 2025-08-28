@@ -1,5 +1,5 @@
-export ANDROID_SDK_ROOT=/Users/$USER/Library/Android/sdk
-export ANDROID_NDK=${ANDROID_SDK_ROOT}/ndk/23.1.7779620
+export ANDROID_SDK_ROOT=/home/alison/Android/Sdk
+export ANDROID_NDK=${ANDROID_SDK_ROOT}/ndk/23.0.7599858
 # export ANDROID_NATIVE_API_LEVEL=24
 
 rm -rf build/
@@ -50,7 +50,8 @@ do
    	-DBUILD_ANDROID_PROJECTS=OFF ..
 
    # make -j nproc
-   	make
+  make
+
 	make install
 
 	cd ..

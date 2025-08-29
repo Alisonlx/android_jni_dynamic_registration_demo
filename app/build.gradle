@@ -10,7 +10,7 @@ apply plugin: 'io.gitlab.arturbosch.detekt'
 
 
 android {
-    compileSdk 31
+    compileSdkVersion 36
 
     defaultConfig {
         applicationId "com.example.myapplication"

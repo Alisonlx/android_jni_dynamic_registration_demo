@@ -1,5 +1,5 @@
 #include "ImageSteg.h"
-#include "opencv2/opencv.hpp"
+#include "opencv2/imgcodecs.hpp"
 #include "logger.h"
 #include "constants.h"
 

@@ -1,3 +1,4 @@
+#export ANDROID_NDK=/home/alison/Android/Sdk/ndk/27.0.12077973
 cd opencv
 rm -rf build/
 ABI="arm64-v8a"

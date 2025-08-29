@@ -1,7 +1,7 @@
 #ifndef CHOPPER_CONSTANTS_H
 #define CHOPPER_CONSTANTS_H
 
-#include "opencv2/opencv.hpp"
+#include "opencv2/core/version.hpp"
 #include <jni.h>
 
 

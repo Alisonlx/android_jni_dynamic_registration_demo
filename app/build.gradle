@@ -86,7 +86,7 @@ dependencies {
     implementation "androidx.datastore:datastore-preferences:1.0.0"
 
     // animations
-    implementation 'com.airbnb.android:lottie:4.2.1'
+    implementation libs.lottie
 
     def work_version = "2.7.1"
     implementation "androidx.work:work-runtime-ktx:$work_version"

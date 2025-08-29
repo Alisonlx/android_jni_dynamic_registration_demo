@@ -2,12 +2,14 @@
 detektGradlePlugin = "1.23.8"
 gradle = "8.12.2"
 kotlinGradlePlugin = "1.6.21"
+lottie = "6.6.7"
 timber = "5.0.1"
 
 [libraries]
 detekt-gradle-plugin = { module = "io.gitlab.arturbosch.detekt:detekt-gradle-plugin", version.ref = "detektGradlePlugin" }
 gradle = { module = "com.android.tools.build:gradle", version.ref = "gradle" }
 kotlin-gradle-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlinGradlePlugin" }
+lottie = { module = "com.airbnb.android:lottie", version.ref = "lottie" }
 timber = { module = "com.jakewharton.timber:timber", version.ref = "timber" }
 
 

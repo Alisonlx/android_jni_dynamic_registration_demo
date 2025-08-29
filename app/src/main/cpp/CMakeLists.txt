@@ -31,8 +31,6 @@ set(opencv_libs_names
 
 set(OPENCV_DIRS ${CMAKE_SOURCE_DIR}/../../../../3rd_party/opencv)
 include_directories(${OPENCV_DIRS}/${ANDROID_ABI}/sdk/native/jni/include)
-#set(OPENCV_DIRS ${CMAKE_SOURCE_DIR}/../../../../third_party/opencv)
-#include_directories(${OPENCV_DIRS}/include)
 foreach (opencv_libs_name ${opencv_libs_names})
     add_library(
             ${opencv_libs_name}
@@ -42,7 +40,6 @@ foreach (opencv_libs_name ${opencv_libs_names})
             ${opencv_libs_name}
             PROPERTIES
             IMPORTED_LOCATION
-#            ${OPENCV_DIRS}/lib/${ANDROID_ABI}/lib${opencv_libs_name}.so
             ${OPENCV_DIRS}/${ANDROID_ABI}/sdk/native/libs/${ANDROID_ABI}/lib${opencv_libs_name}.so
     )
 #

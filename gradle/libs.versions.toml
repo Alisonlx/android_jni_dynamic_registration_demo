@@ -1,14 +1,24 @@
 [versions]
+constraintlayout = "2.2.1"
 detektGradlePlugin = "1.23.8"
+espressoCore = "3.7.0"
 gradle = "8.12.2"
+junit = "4.13.2"
+junitVersion = "1.3.0"
 kotlinGradlePlugin = "1.6.21"
+leakcanaryAndroid = "2.14"
 lottie = "6.6.7"
 timber = "5.0.1"
 
 [libraries]
+constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayout" }
 detekt-gradle-plugin = { module = "io.gitlab.arturbosch.detekt:detekt-gradle-plugin", version.ref = "detektGradlePlugin" }
+ext-junit = { module = "androidx.test.ext:junit", version.ref = "junitVersion" }
+espresso-core = { module = "androidx.test.espresso:espresso-core", version.ref = "espressoCore" }
 gradle = { module = "com.android.tools.build:gradle", version.ref = "gradle" }
+junit = { module = "junit:junit", version.ref = "junit" }
 kotlin-gradle-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlinGradlePlugin" }
+leakcanary-android = { module = "com.squareup.leakcanary:leakcanary-android", version.ref = "leakcanaryAndroid" }
 lottie = { module = "com.airbnb.android:lottie", version.ref = "lottie" }
 timber = { module = "com.jakewharton.timber:timber", version.ref = "timber" }
 
